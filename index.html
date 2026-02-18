@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AYTU OTOMOTİV A.Ş — Premium Car Rental in Antalya</title>
+  <meta name="description" content="Premium car rental services in Antalya, Turkey. Wide fleet selection, airport pickup, competitive prices, and 24/7 customer support.">
+  <meta name="keywords" content="car rental Antalya, rent a car Turkey, Antalya airport car hire, premium car rental, AYTU Otomotiv">
+  <meta property="og:title" content="AYTU OTOMOTİV — Premium Car Rental in Antalya">
+  <meta property="og:description" content="Experience the Turkish Riviera with comfort and style. Premium car rental services across Antalya.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aytuotomotiv.com">
+  <link rel="canonical" href="https://aytuotomotiv.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-slate-800">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-900/80 backdrop-blur-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <a href="index.html" class="flex items-center space-x-2">
+          <span class="text-2xl font-extrabold tracking-tight"><span class="text-indigo-400">AYTU</span><span class="text-white"> OTOMOTİV</span></span>
+        </a>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="text-white font-medium hover:text-indigo-400 transition">Home</a>
+          <a href="fleet.html" class="text-slate-300 font-medium hover:text-indigo-400 transition">Our Fleet</a>
+          <a href="locations.html" class="text-slate-300 font-medium hover:text-indigo-400 transition">Locations</a>
+          <a href="about.html" class="text-slate-300 font-medium hover:text-indigo-400 transition">About Us</a>
+          <a href="campaigns.html" class="text-slate-300 font-medium hover:text-indigo-400 transition">Campaigns</a>
+          <a href="contact.html" class="text-slate-300 font-medium hover:text-indigo-400 transition">Contact</a>
+        </div>
+        <div class="hidden lg:flex items-center space-x-3">
+          <a href="tel:08503050707" class="flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 rounded-lg transition font-medium text-sm">
+            <i class="fas fa-phone text-xs"></i>
+            <span>0850 305 07 07</span>
+          </a>
+        </div>
+        <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900/98 border-t border-slate-700/50">
+      <div class="px-6 py-6 space-y-4">
+        <a href="index.html" class="block text-white hover:text-indigo-400 py-2 font-medium">Home</a>
+        <a href="fleet.html" class="block text-slate-300 hover:text-indigo-400 py-2 font-medium">Our Fleet</a>
+        <a href="locations.html" class="block text-slate-300 hover:text-indigo-400 py-2 font-medium">Locations</a>
+        <a href="about.html" class="block text-slate-300 hover:text-indigo-400 py-2 font-medium">About Us</a>
+        <a href="campaigns.html" class="block text-slate-300 hover:text-indigo-400 py-2 font-medium">Campaigns</a>
+        <a href="contact.html" class="block text-slate-300 hover:text-indigo-400 py-2 font-medium">Contact</a>
+        <div class="pt-4 border-t border-slate-700/50">
+          <a href="tel:08503050707" class="flex items-center space-x-2 text-indigo-400 font-medium">
+            <i class="fas fa-phone"></i><span>0850 305 07 07</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative min-h-screen flex items-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80" alt="Premium car rental" class="w-full h-full object-cover">
+      <div class="hero-gradient absolute inset-0"></div>
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center space-x-2 bg-indigo-600/20 border border-indigo-500/30 rounded-full px-4 py-2 mb-8">
+          <span class="w-2 h-2 bg-indigo-400 rounded-full animate-pulse"></span>
+          <span class="text-indigo-300 text-sm font-medium">AYTU OTOMOTİV A.Ş</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white leading-tight">
+          Premium Car<br>
+          <span class="gradient-text">Rental in Antalya</span>
+        </h1>
+        <p class="mt-6 text-lg sm:text-xl text-slate-300 max-w-2xl leading-relaxed">
+          Experience the Turkish Riviera with comfort and style. Choose from our wide selection of vehicles and explore Antalya at your own pace.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 mt-10">
+          <a href="fleet.html" class="inline-flex items-center justify-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:shadow-lg hover:shadow-indigo-500/25 text-lg">
+            <span>View Our Fleet</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="contact.html" class="inline-flex items-center justify-center space-x-2 border-2 border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:bg-white/5 text-lg">
+            <i class="fab fa-whatsapp"></i>
+            <span>Get in Touch</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-white/50 text-2xl"></i>
+    </div>
+  </section>
+
+  <!-- Stats Bar -->
+  <section class="bg-slate-900 border-y border-slate-700/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div class="fade-in">
+          <p class="text-3xl md:text-4xl font-extrabold text-white" data-count="10" data-suffix="+">0</p>
+          <p class="text-slate-400 mt-2 text-sm uppercase tracking-wider">Years Experience</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-3xl md:text-4xl font-extrabold text-white" data-count="150" data-suffix="+">0</p>
+          <p class="text-slate-400 mt-2 text-sm uppercase tracking-wider">Vehicles</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-3xl md:text-4xl font-extrabold text-white" data-count="50000" data-suffix="+">0</p>
+          <p class="text-slate-400 mt-2 text-sm uppercase tracking-wider">Happy Customers</p>
+        </div>
+        <div class="fade-in">
+          <p class="text-3xl md:text-4xl font-extrabold text-white" data-count="7" data-suffix="">0</p>
+          <p class="text-slate-400 mt-2 text-sm uppercase tracking-wider">Locations</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto fade-in">
+        <span class="text-indigo-600 font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3">The Trusted Choice for Car Rental in Antalya</h2>
+        <p class="text-slate-500 mt-4 text-lg">Search, compare, and save on your next rental. We make it easy to find the perfect vehicle for your journey.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+        <div class="card-hover bg-slate-50 rounded-2xl p-8 text-center border border-slate-100 fade-in">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
+            <i class="fas fa-bolt text-2xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mt-6">Fast Booking</h3>
+          <p class="text-slate-500 mt-3 leading-relaxed">Quick and hassle-free reservation process. Get your car ready in minutes.</p>
+        </div>
+        <div class="card-hover bg-slate-50 rounded-2xl p-8 text-center border border-slate-100 fade-in">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
+            <i class="fas fa-shield-halved text-2xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mt-6">Vehicle Safety</h3>
+          <p class="text-slate-500 mt-3 leading-relaxed">All vehicles are regularly maintained and fully insured for your peace of mind.</p>
+        </div>
+        <div class="card-hover bg-slate-50 rounded-2xl p-8 text-center border border-slate-100 fade-in">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
+            <i class="fas fa-headset text-2xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mt-6">24/7 Support</h3>
+          <p class="text-slate-500 mt-3 leading-relaxed">Our dedicated team is available around the clock to assist you whenever you need.</p>
+        </div>
+        <div class="card-hover bg-slate-50 rounded-2xl p-8 text-center border border-slate-100 fade-in">
+          <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mx-auto">
+            <i class="fas fa-tags text-2xl text-indigo-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-slate-900 mt-6">Best Prices</h3>
+          <p class="text-slate-500 mt-3 leading-relaxed">Competitive rates with no hidden fees. Get the best value for your money.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Vehicles -->
+  <section class="py-24 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto fade-in">
+        <span class="text-indigo-600 font-semibold text-sm uppercase tracking-wider">Our Fleet</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3">Featured Vehicles</h2>
+        <p class="text-slate-500 mt-4 text-lg">Browse our most popular rental options. From economy to luxury, we have the perfect car for every need.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+        <!-- Vehicle 1 -->
+        <div class="vehicle-card card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 fade-in">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&w=800&q=80" alt="Economy Car" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase">Economy</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-3">Compact Hatchback</h3>
+            <div class="flex items-center space-x-4 mt-3 text-sm text-slate-500">
+              <span><i class="fas fa-gas-pump mr-1"></i> Petrol</span>
+              <span><i class="fas fa-cog mr-1"></i> Auto</span>
+              <span><i class="fas fa-user mr-1"></i> 5</span>
+            </div>
+            <div class="mt-4 pt-4 border-t border-slate-100">
+              <a href="fleet.html" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm transition">View Details <i class="fas fa-arrow-right ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Vehicle 2 -->
+        <div class="vehicle-card card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 fade-in">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80" alt="Sedan" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase">Sedan</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-3">Premium Sedan</h3>
+            <div class="flex items-center space-x-4 mt-3 text-sm text-slate-500">
+              <span><i class="fas fa-gas-pump mr-1"></i> Diesel</span>
+              <span><i class="fas fa-cog mr-1"></i> Auto</span>
+              <span><i class="fas fa-user mr-1"></i> 5</span>
+            </div>
+            <div class="mt-4 pt-4 border-t border-slate-100">
+              <a href="fleet.html" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm transition">View Details <i class="fas fa-arrow-right ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Vehicle 3 -->
+        <div class="vehicle-card card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 fade-in">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=800&q=80" alt="SUV" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase">SUV</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-3">Crossover SUV</h3>
+            <div class="flex items-center space-x-4 mt-3 text-sm text-slate-500">
+              <span><i class="fas fa-gas-pump mr-1"></i> Diesel</span>
+              <span><i class="fas fa-cog mr-1"></i> Auto</span>
+              <span><i class="fas fa-user mr-1"></i> 7</span>
+            </div>
+            <div class="mt-4 pt-4 border-t border-slate-100">
+              <a href="fleet.html" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm transition">View Details <i class="fas fa-arrow-right ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Vehicle 4 -->
+        <div class="vehicle-card card-hover bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100 fade-in">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80" alt="Luxury" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase">Luxury</span>
+            <h3 class="text-lg font-bold text-slate-900 mt-3">Executive Class</h3>
+            <div class="flex items-center space-x-4 mt-3 text-sm text-slate-500">
+              <span><i class="fas fa-gas-pump mr-1"></i> Petrol</span>
+              <span><i class="fas fa-cog mr-1"></i> Auto</span>
+              <span><i class="fas fa-user mr-1"></i> 5</span>
+            </div>
+            <div class="mt-4 pt-4 border-t border-slate-100">
+              <a href="fleet.html" class="text-indigo-600 hover:text-indigo-700 font-semibold text-sm transition">View Details <i class="fas fa-arrow-right ml-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12 fade-in">
+        <a href="fleet.html" class="inline-flex items-center space-x-2 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:shadow-lg hover:shadow-indigo-500/25">
+          <span>Browse All Vehicles</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Preview -->
+  <section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto fade-in">
+        <span class="text-indigo-600 font-semibold text-sm uppercase tracking-wider">Convenient Locations</span>
+        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mt-3">Pick Up & Drop Off Across Antalya</h2>
+        <p class="text-slate-500 mt-4 text-lg">With 7 convenient locations, we make it easy to start and end your journey wherever you are.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-plane-arrival text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Antalya Airport</h3>
+            <p class="text-slate-500 text-sm mt-1">Terminal pickup & drop-off</p>
+          </div>
+        </div>
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-plane-arrival text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Gazipaşa Airport</h3>
+            <p class="text-slate-500 text-sm mt-1">Terminal pickup & drop-off</p>
+          </div>
+        </div>
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-city text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Antalya City Center</h3>
+            <p class="text-slate-500 text-sm mt-1">Central office location</p>
+          </div>
+        </div>
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-umbrella-beach text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Alanya</h3>
+            <p class="text-slate-500 text-sm mt-1">Resort area office</p>
+          </div>
+        </div>
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-golf-ball-tee text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Belek</h3>
+            <p class="text-slate-500 text-sm mt-1">Premium resort area</p>
+          </div>
+        </div>
+        <div class="card-hover flex items-center space-x-4 bg-slate-50 rounded-2xl p-6 border border-slate-100 fade-in">
+          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-mountain-sun text-xl text-indigo-600"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Kemer</h3>
+            <p class="text-slate-500 text-sm mt-1">Coastal resort office</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12 fade-in">
+        <a href="locations.html" class="text-indigo-600 hover:text-indigo-700 font-semibold transition">
+          View All Locations <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="relative py-24 overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1920&q=80" alt="Antalya" class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-gradient-to-r from-slate-900/95 to-indigo-900/80"></div>
+    </div>
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="max-w-3xl mx-auto fade-in">
+        <h2 class="text-3xl md:text-5xl font-extrabold text-white">Ready to Explore Antalya?</h2>
+        <p class="text-slate-300 mt-6 text-lg leading-relaxed">
+          Contact us today and let us help you find the perfect vehicle for your Turkish adventure. Airport pickup available 24/7.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+          <a href="https://wa.me/905335746703" target="_blank" class="inline-flex items-center justify-center space-x-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-xl font-semibold transition-all hover:shadow-lg text-lg">
+            <i class="fab fa-whatsapp text-xl"></i>
+            <span>WhatsApp Us</span>
+          </a>
+          <a href="tel:08503050707" class="inline-flex items-center justify-center space-x-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-xl font-semibold transition-all text-lg">
+            <i class="fas fa-phone"></i>
+            <span>Call Now</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div>
+          <a href="index.html" class="text-2xl font-extrabold tracking-tight">
+            <span class="text-indigo-400">AYTU</span> OTOMOTİV
+          </a>
+          <p class="mt-4 text-slate-400 leading-relaxed">Premium car rental services in Antalya. Experience the Turkish Riviera with comfort and style.</p>
+          <div class="flex space-x-4 mt-6">
+            <a href="#" class="w-10 h-10 bg-slate-800 hover:bg-indigo-600 rounded-lg flex items-center justify-center transition">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/905335746703" target="_blank" class="w-10 h-10 bg-slate-800 hover:bg-green-600 rounded-lg flex items-center justify-center transition">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-6">Quick Links</h3>
+          <ul class="space-y-3">
+            <li><a href="fleet.html" class="text-slate-400 hover:text-indigo-400 transition">Our Fleet</a></li>
+            <li><a href="locations.html" class="text-slate-400 hover:text-indigo-400 transition">Locations</a></li>
+            <li><a href="campaigns.html" class="text-slate-400 hover:text-indigo-400 transition">Campaigns</a></li>
+            <li><a href="about.html" class="text-slate-400 hover:text-indigo-400 transition">About Us</a></li>
+            <li><a href="privacy.html" class="text-slate-400 hover:text-indigo-400 transition">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-6">Our Locations</h3>
+          <ul class="space-y-3 text-slate-400">
+            <li><i class="fas fa-map-marker-alt text-indigo-400 mr-2"></i>Antalya Airport</li>
+            <li><i class="fas fa-map-marker-alt text-indigo-400 mr-2"></i>Gazipaşa Airport</li>
+            <li><i class="fas fa-map-marker-alt text-indigo-400 mr-2"></i>Alanya</li>
+            <li><i class="fas fa-map-marker-alt text-indigo-400 mr-2"></i>Antalya City Center</li>
+            <li><i class="fas fa-map-marker-alt text-indigo-400 mr-2"></i>Belek &amp; Kemer</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-6">Contact Us</h3>
+          <ul class="space-y-4 text-slate-400">
+            <li class="flex items-start space-x-3">
+              <i class="fas fa-map-marker-alt mt-1 text-indigo-400"></i>
+              <span>Altınova Sinan Mah. Serik Cad. 155/A Kepez, Antalya</span>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fas fa-phone text-indigo-400"></i>
+              <a href="tel:08503050707" class="hover:text-indigo-400 transition">0850 305 07 07</a>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fab fa-whatsapp text-indigo-400"></i>
+              <a href="https://wa.me/905335746703" class="hover:text-indigo-400 transition">+90 533 574 67 03</a>
+            </li>
+            <li class="flex items-center space-x-3">
+              <i class="fas fa-envelope text-indigo-400"></i>
+              <a href="mailto:info@aytuotomotiv.com" class="hover:text-indigo-400 transition">info@aytuotomotiv.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-slate-800 mt-12 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-slate-500 text-sm">&copy; 2025 AYTU OTOMOTİV A.Ş &mdash; All Rights Reserved</p>
+          <div class="flex items-center space-x-3 mt-4 md:mt-0">
+            <span class="text-slate-600 text-xs">We accept</span>
+            <div class="flex space-x-2">
+              <div class="bg-slate-800 rounded px-2 py-1"><i class="fab fa-cc-visa text-xl text-blue-400"></i></div>
+              <div class="bg-slate-800 rounded px-2 py-1"><i class="fab fa-cc-mastercard text-xl text-orange-400"></i></div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-slate-700 text-xs mt-6">
+          Created by <a href="https://softenwise.com" target="_blank" class="hover:text-slate-500 transition">SoftenWise</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/905335746703" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp text-white text-3xl"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
